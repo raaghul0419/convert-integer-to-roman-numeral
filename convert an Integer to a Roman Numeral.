@@ -1,5 +1,5 @@
 class iToR:
-    def _init_(self, n):
+    def __init__(self, n):
         self.num = n
         self.roman = ''
         
@@ -45,6 +45,6 @@ class iToR:
             if n==0:
                 n = -1
 
-obj = iToR(103)
+obj = iToR(1903)
 obj.conv()
 print(obj.roman)
